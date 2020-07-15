@@ -11,6 +11,7 @@ body {
 .header{
     background:white;
     display: flex;
+    /* TODO: pq utilizou flex-wrap aqui? */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +19,7 @@ body {
 
 }
 .buscar{
+  /* TODO: não faz sentido colocar flex em algo que não tem nenhum filho */
     display: flex;
     align-items: center;
 }
@@ -26,6 +28,7 @@ body {
     display: flex;
 }
 .logo li{
+  /* TODO: esse display block ta sendo usado só pra tirar o .? */
     display: block;
     padding: 10px;
 }
@@ -42,6 +45,7 @@ body {
 
     background:white;
     display: flex;
+    /* TODO: mesma coisa do flex-wrap de cima */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -61,13 +65,16 @@ body {
 
 .sub  li{
 
+  /* TODO:mesma coisa do display block de cima */
     display: block;
     padding: 10px;
 }
 
 .flex{
+  display:flex;
     background:#fff;
     padding:20px;
+    /* TODO: qual era o objetivo disso? acho que nao ta fazendo nada */
     flex:1 1 30%;
 	/*flex:1;*/
  
@@ -77,6 +84,7 @@ body {
 
     background:white;
     display: flex;
+    /* TODO: mesma coisa dos flex-wrap anteriores */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -92,12 +100,14 @@ body {
 
 .final li{
 
+  /* TODO: mesma coisa dos display block anteriores */
     display: block;
     padding: 10px;
 }
 
 
 .salvar{
+  /* TODO: display flex não ta fazendo nada */
     display:flex;
     
     
@@ -105,6 +115,7 @@ body {
 
 
 .comentario{
+  /* TODO: acho que esse display flex não ta fazendo nada */
     display: flex;
     align-items: center;
 }
